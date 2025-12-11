@@ -1,10 +1,10 @@
-
+import Chatbot from "./Chatbot";
 
 function App(){
 
   return(
     <>
-      
+      <Chatbot/>
     </>
   );
 }
