@@ -4,6 +4,8 @@
 
 An intelligent AI assistant web application that provides instant, helpful responses 24/7. Built with React and Vite, JWA offers a seamless conversational interface powered by LiveChatAI.
 
+🌐 **Live Demo:** [https://jw-assistant.netlify.app/](https://jw-assistant.netlify.app/)
+
 ## Features
 
 - 🤖 AI-powered chatbot interface
