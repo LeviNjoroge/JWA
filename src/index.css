@@ -25,10 +25,10 @@ html, body, #root {
 
 /* Scaled iframe - 1.2x magnification for desktop (less blur) */
 .scaled-iframe {
-  width: 83.33%;      /* 100% / 1.2 = 83.33% */
-  height: 83.33%;
+  width: 71.42%;      /* 100% / 1.2 = 83.33% */
+  height: 71.42%;
   border: none;
-  transform: scale(1.2);
+  transform: scale(1.4);
   transform-origin: top left;
   position: absolute;
   top: 0;
