@@ -23,24 +23,24 @@ html, body, #root {
   height: 100dvh; /* Dynamic viewport height for mobile browsers */
 }
 
-/* Scaled iframe - 1.5x magnification for desktop */
+/* Scaled iframe - 1.2x magnification for desktop (less blur) */
 .scaled-iframe {
-  width: 66.67%;      /* 100% / 1.5 = 66.67% */
-  height: 66.67%;
+  width: 83.33%;      /* 100% / 1.2 = 83.33% */
+  height: 83.33%;
   border: none;
-  transform: scale(1.5);
+  transform: scale(1.2);
   transform-origin: top left;
   position: absolute;
   top: 0;
   left: 0;
 }
 
-/* Mobile: Less magnification for better fit */
+/* Mobile: Slight magnification */
 @media (max-width: 768px) {
   .scaled-iframe {
-    width: 80%;       /* 100% / 1.25 = 80% */
-    height: 80%;
-    transform: scale(1.25);
+    width: 90.91%;    /* 100% / 1.1 = 90.91% */
+    height: 90.91%;
+    transform: scale(1.1);
   }
 }
 

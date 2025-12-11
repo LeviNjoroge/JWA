@@ -1,4 +1,3 @@
-import Chatbot from "./Chatbot";
 import "./index.css";
 
 function App(){
