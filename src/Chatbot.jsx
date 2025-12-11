@@ -1,19 +1,18 @@
 import { useEffect } from "react";
 
 function Chatbot() {
-    useEffect(() => {
-        // Check if the script is already loaded
-        if (!document.getElementById("livechatai-script")) {
-            const script = document.createElement("script");
-            script.id = "livechatai-script";
-            script.src = "https://app.livechatai.com/embed.js";
-            script.defer = true;
-            script.setAttribute("data-id", "cmj16s98x0003la04nknd6auw");
-            document.body.appendChild(script);
-        }
-    }, []);
-
-    return null;
+    return(
+        <>
+        <iframe
+            src="https://app.livechatai.com/aibot-iframe/cmj16s98x0003la04nknd6auw"
+            style="border:1px solid #EAEAEA"
+            width="100%"
+            height="680"
+            frameborder="0"
+            allow="microphone"
+            ></iframe>
+        </>
+    );
 }
 
 export default Chatbot;
