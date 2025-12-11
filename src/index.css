@@ -24,7 +24,7 @@ html, body, #root {
 }
 
 /* Scaled iframe - 1.2x magnification for desktop (less blur) */
-.scaled-iframe {
+/* .scaled-iframe {
   width: 83.33%;      /* 100% / 1.2 = 83.33% */
   height: 83.33%;
   border: none;
@@ -33,7 +33,7 @@ html, body, #root {
   position: absolute;
   top: 0;
   left: 0;
-}
+} */
 
 /* Mobile: Slight magnification */
 @media (max-width: 768px) {
