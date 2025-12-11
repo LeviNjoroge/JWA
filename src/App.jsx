@@ -4,6 +4,7 @@ function App(){
 
   return(
     <div className="iframe-wrapper">
+      <h1>Welcome to JW Assistant</h1>
       <iframe
                 src="https://app.livechatai.com/aibot-iframe/cmj16s98x0003la04nknd6auw"
                 className="scaled-iframe"
